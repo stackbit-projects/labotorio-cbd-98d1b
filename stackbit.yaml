@@ -1,0 +1,19 @@
+stackbitVersion: ~0.3.0
+ssgName: gatsby
+publishDir: public
+dataDir: src/strings
+models:
+  branded_strings:
+    type: data
+    label: Branded Strings
+    file: BrandedStrings.json
+    fields:
+      - type: string
+        name: front-title
+        label: Front Title
+      - type: string
+        name: front-paragraph-1
+        label: Front Paragraph 1
+      - type: string
+        name: front-paragraph-2
+        label: Front Paragraph 2
